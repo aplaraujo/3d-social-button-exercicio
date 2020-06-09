@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-btn {
+  border-radius: 0.6rem;
+  height: 6rem;
+  width: 6rem;
+  position: relative;
+  border: none;
+  box-shadow: 0rem 0.3rem 0.2rem 0 #ebebeb;
+}
+
+.btn {
+  display: block;
+  width: 5.6rem;
+  height: 5.6rem;
+  line-height: 5.6rem;
+  border-radius: 0.6rem;
+  font-size: 2.2rem;
+  color: #ffffff;
+  position: relative;
+  top: -0.2rem;
+  margin-left: 3px;
+  transition: all 0.2s;
+}
+
+.btn:active {
+  transform: translate3d(0, 0.4rem, 0);
+  border-style: 0 0 0 0 #000000;
+}
+
+.facebook {
+  background-color: #3a5795;
+  box-shadow: 0rem 0.4rem 0 0 #253753;
+}
+
+.twitter {
+  background-color: #5ea9dd;
+  box-shadow: 0rem 0.4rem 0 0 #2a85c5;
+}
+
+.google {
+  background-color: #c30907;
+  box-shadow: 0rem 0.4rem 0 0 #790604;
+}
+
+.linkedin {
+  background-color: #0274b3;
+  box-shadow: 0rem 0.4rem 0 0 #014367;
+}
+
+.pinterest {
+  background-color: #d70094;
+  box-shadow: 0rem 0.4rem 0 0 #8b0003;
+}
+
+.dribbble {
+  background-color: #eb498a;
+  box-shadow: 0rem 0.4rem 0 0 #d11761;
+}
